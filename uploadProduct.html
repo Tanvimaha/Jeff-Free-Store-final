@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Jeff Free-Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="library/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+
+
+    <!-- Our Code Starts Here -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#eea15d;">
+      <a href="home.html" class="btn btn-primary" style="background-color: #eea15d; border-color:#eea15d;"><i class="fas fa-chevron-left"></i></a>
+
+      <h3 style="color: white; text-align:center;font-weight:200;font-family: 'Righteous',cursive;"> Jeff Free-Store</h3>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon line"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" style="background-color: transparent;">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="home.html">Home</a>
+            <div class="dropdown-divider"></div>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="myProfile1.html">My Profile</a>
+              <div class="dropdown-divider"></div>
+            </li>
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="uploadProduct.html">Sell Product</a>
+        <div class="dropdown-divider"></div>
+      </li>
+
+            <li class="nav-item active">
+                  <a class="nav-link" href="notifications.html">Notifications<span class="badge" id="notification1">1</span></a>
+                  <div class="dropdown-divider"></div>
+                </li>
+
+
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="faq.html">FAQ</a>
+            <div class="dropdown-divider"></div>
+          </li>
+
+
+
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="LogIn.html">Log out</a>
+          </li>
+        </ul>
+      </div>
+
+  </nav>
+
+
+  <div class="container pt-5" style="margin-top:50px;">
+
+          <div class="row">
+              <div class="col-md-12">
+
+                        <div class="form-group row">
+                          <label for="username" class="col-4 col-form-label light">Campus Key*</label>
+                          <div class="col-8">
+                            <input id="username" name="username" placeholder="Username" class="form-control here" required="required" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="name" class="col-4 col-form-label light">First Name</label>
+                          <div class="col-8">
+                            <input id="name" name="name" placeholder="First Name" class="form-control here" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="lastname" class="col-4 col-form-label light">Last Name</label>
+                          <div class="col-8">
+                            <input id="lastname" name="lastname" placeholder="Last Name" class="form-control here" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="text" class="col-4 col-form-label light">Product</label>
+                          <div class="col-8">
+                            <input id="text" name="text" placeholder="Nick Name" class="form-control here" required="required" type="text">
+                          </div>
+                        </div>
+                        <div class="form-group row" >
+                          <label for="select" class="col-4 col-form-label light">Select Category</label>
+                          <div class="col-8" >
+                            <select id="select" name="select" class="custom-select" style="border-radius:8px;">
+                              <option value="admin">Donate</option>
+                              <option value="admin">Sell</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="email" class="col-4 col-form-label light">Email*</label>
+                          <div class="col-8">
+                            <input id="email" name="email" placeholder="Email" class="form-control here" required="required" type="text">
+                          </div>
+                        </div>
+
+                       <div class="form-group row">
+                          <label for="publicinfo" class="col-4 col-form-label light">Upload Picture</label>
+                          <div class="col-8">
+                            <textarea id="publicinfo" name="publicinfo" cols="40" rows="4" class="form-control"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="form-group row">
+                          <div class="offset-4 col-8">
+
+                            <button style="background-color:#eea15d; border-color:#eea15d; border-radius:50px;" type="button" id="message" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Upload</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 id="exampleModalLabel">Product has been upoaded</h5>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="library/jquery-ui/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>
